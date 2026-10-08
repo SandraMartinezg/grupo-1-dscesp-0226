@@ -216,7 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-data/
+
+# Datos: los originales y los intermedios no se suben (tamaño); data/app sí, para que funcione el simulador
+data/raw/
+data/processed/
+
+# macOS
+.DS_Store
 
 prueba*.ipynb
 
